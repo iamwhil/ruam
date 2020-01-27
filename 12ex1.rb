@@ -6,7 +6,7 @@ def display_count
   puts "Total: #{data[:TOTAL]} Free: #{data[:FREE]} Object: #{data[:T_OBJECT]}"
 end
 
-30.times do
+100.times do
   obj = Object.new
   display_count
 end
